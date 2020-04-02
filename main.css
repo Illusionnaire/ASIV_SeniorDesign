@@ -18,6 +18,7 @@ body {
 
 .top-header {
 	grid-area: top;
+	text-align:center;
 	display:flex;
 	padding:40px 10px;
 	background-color: #003366;
@@ -114,4 +115,31 @@ footer {
 	background-color: #ffc40d;
 	color:#003366;
 	grid-area:foot;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 200px 5fr 1fr 100px;
+	grid-template-areas:
+	"top"
+	"left"
+	"right"
+	"foot";
+  }
+  
+  .navigation {
+	border-top: none
+	border-bottom: none;
+  }
+  
+  .anim {
+	grid-area:left;
+	background-color:#003366;
+	border-bottom: none;
+	border-right: none;
+  }
+
+
 }
