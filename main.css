@@ -17,7 +17,7 @@
 }
 
 body {
-	background-color: #003366;
+	background-color: #faf9f4;
 	height:100%;
 	width:100%;
 	display: grid;
@@ -148,11 +148,12 @@ footer {
 	background-color: #ffc40d;
 	color:#003366;
 	grid-area:foot;
-	font-family: 'Medula One', cursive;
+	font-family: 'Inter', sans-serif;
+	font-size: 0.7em;
 }
 
 #copyright {
-	margin:auto;
+	margin-top: 50px;
 	font-size:1.2em;
 }
 
@@ -187,6 +188,91 @@ nav a {
 .active {
 	color: #ffffff;
 }
+
+.content-container {
+	grid-area: content;
+	text-align: center;
+	color: #003366;
+	font-family: 'Inter', sans-serif;
+	font-size: 1em;
+}
+
+.singlesection {
+	margin: 100px auto auto;
+	max-width: 600px;
+}
+
+.content-container h1 {
+	color: #ffc40d;
+	font-family: 'Inter', sans-serif;
+	font-size: 1.2em;
+}
+
+.content-container h2 {
+	color: #003366;
+	font-family: 'Inter', sans-serif;
+	font-size: 1.5em;
+}
+
+.content-container hr {
+	height: 4px;
+}
+
+.triplesectionwrapper {
+	max-width: 1000px;
+	margin: 100px auto auto;
+	display: grid;
+	grid-column-gap: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+  	grid-template-rows: auto;
+  	grid-template-areas:
+  	"trip-left trip-mid trip-right";
+}
+
+#myCarousel {
+	max-width:1000px;
+	margin:auto;
+}
+
+#CarouselContainer {
+	padding: 10px 0px;
+	display:block;
+	width:100%;
+	background-color: #f0f0f0;
+}
+
+#left.triplesection {
+	grid-area: "trip-left";
+}
+
+#middle.triplesection {
+	grid-area: "trip-mid";
+}
+
+#right.triplesection {
+	grid-area: "trip-right";
+}
+
+.triplesection img {
+	height: 100px;
+	width: 100px;
+	padding: 5px;
+	border-radius: 35px;
+	background-color: #ffc40d;
+}
+
+.content-container hr {
+	margin: 5px 0px;
+}
+
+.content-container .last-para {
+	margin-bottom: 100px;
+}
+
+.content-container p {
+	margin: 10px 0px;
+}
+
 
 
 @media only screen and (max-width: 900px) {
