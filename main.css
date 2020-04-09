@@ -17,7 +17,7 @@
 }
 
 body {
-	background-color: #faf9f4;
+	background-color: #fff;
 	height:100%;
 	width:100%;
 	display: grid;
@@ -159,7 +159,7 @@ footer {
 
 #navigation {
 	font-family: 'Inter', sans-serif;
-	font-size: 1em;
+	font-size: 1.2em;
 	text-align: center;
 	background-color: #003366;
 	color: #ffc40d;
@@ -194,7 +194,7 @@ nav a {
 	text-align: center;
 	color: #003366;
 	font-family: 'Inter', sans-serif;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 .singlesection {
@@ -202,10 +202,22 @@ nav a {
 	max-width: 600px;
 }
 
+.banner {
+	background-color: #003366;
+	display: block;
+	padding: 20px 100px; 
+	color: #ffc40d;
+	margin: auto 100px;
+}
+
+.banner p {
+	font-size: 1.7em;
+}
+
 .content-container h1 {
 	color: #ffc40d;
 	font-family: 'Inter', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 .content-container h2 {
@@ -259,10 +271,6 @@ nav a {
 	padding: 5px;
 	border-radius: 35px;
 	background-color: #ffc40d;
-}
-
-.content-container hr {
-	margin: 5px 0px;
 }
 
 .content-container .last-para {
