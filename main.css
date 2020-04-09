@@ -51,6 +51,11 @@ h1 a {
 	color:#ffc40d;
 }
 
+h1 a:hover {
+	text-decoration:none;
+	color:#ffc40d;
+}
+
 .anim {
 	grid-area:left;
 	background-color:#003366;
