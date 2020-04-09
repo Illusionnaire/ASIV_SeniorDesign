@@ -270,7 +270,7 @@ nav a {
 	grid-area: "trip-right";
 }
 
-.triplesection img {
+.triplesection .img {
 	height: 100px;
 	width: 100px;
 	padding: 5px;
@@ -286,9 +286,12 @@ nav a {
 	margin: 10px 0px;
 }
 
+.teamsection h1 {
+	font-size: 0.85em;
+	margin:0 auto 60px;
+}
 
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   #mainindex {
     display: grid;
 	grid-template-columns: 100%;
@@ -309,6 +312,14 @@ nav a {
 	background-color:#003366;
 	border-bottom: none;
 	border-right: none;
+  }
+
+  .teamsection h2 {
+	  font-size: 1em;
+  }
+  
+  .teamsection h1 {
+	  font-size: 0.7em;
   }
 }
 
