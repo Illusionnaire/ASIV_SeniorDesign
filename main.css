@@ -105,46 +105,57 @@ h1 a:hover {
 .navigation #link1:before {
 	content:"";
 	display:block;
-    background: url("images/C.svg") no-repeat;
+    background: url("images/A.png") no-repeat;
 	background-size: contain;
-	width:50px;
-	height: 50px;
+	width:40px;
+	height: 40px;
 	float: left;
-	margin: -10 0 0 0;
+	margin:-5 10 0 0;
 }
 
 .navigation #link2:before {
 	content:"";
 	display:block;
-    background: url("images/N.svg") no-repeat;
+    background: url("images/D.png") no-repeat;
 	background-size: contain;
-	width:50px;
-	height: 50px;
+	width:40px;
+	height: 40px;
 	float: left;
-	margin: -10 0 0 0;
+	margin:-5 10 0 0;
 }
 
 .navigation #link3:before {
 	content:"";
 	display:block;
-	background: url("images/2.svg") no-repeat;
+	background: url("images/T.png") no-repeat;
 	background-size: contain;
-	width:50px;
-	height: 50px;
+	width:40px;
+	height: 40px;
 	float:left;
 	float: left;
-	margin: -10 0 0 0;
+	margin:-5 10 0 0;
 }
 
 .navigation #link4:before {
 	content:"";
 	display:block;
-    background: url("images/B.svg") no-repeat;
+    background: url("images/M.png") no-repeat;
 	background-size: contain;
-	width:50px;
-	height: 50px;
+	width:40px;
+	height: 40px;
 	float: left;
-	margin: -10 0 0 0;
+	margin:-5 10 0 0;
+}
+
+.navigation #link5:before {
+	content:"";
+	display:block;
+    background: url("images/C.png") no-repeat;
+	background-size: contain;
+	width:40px;
+	height: 40px;
+	float: left;
+	margin:-5 10 0 0;
 }
 
 footer {
