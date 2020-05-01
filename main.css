@@ -265,7 +265,9 @@ nav a {
 
 #CarouselContainer {
 	padding: 10px 0px;
-	display:block;
+	display:inline-block;
+	height: 100%;
+	vertical-align: middle;
 	width:100%;
 	background-color: #f0f0f0;
 }
